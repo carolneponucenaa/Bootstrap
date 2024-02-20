@@ -1,0 +1,36 @@
+*
+{
+    font-family: "Indie Flower", cursive;
+    font-size: 32px;
+}
+
+html body {
+    background-color: #2E1012;
+    background-image: url(./img/background.webp);
+    background-position: center;
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+
+.row {
+    height: 100vh;
+}
+
+.um, .dois, .tres {
+    display: grid;
+    place-items: center;
+}
+
+.dois {
+    background-color: #F3CC4D;
+}
+
+p {
+    text-align: center;
+    width: 80%;
+}
+
+body .botao {
+    background-color: #2E1012;
+    color: white;
+}
